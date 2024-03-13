@@ -34,10 +34,6 @@ body {
   background-color: #fff;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul,
 ol {
   list-style: none;
@@ -174,17 +170,15 @@ ol {
 
 .hero-button {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
   background-color: #4d5ae5;
+  color: #fff;
   display: flex;
   margin: 0 auto;
   display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  cursor: pointer;
   min-width: 169px;
 }
 
@@ -198,10 +192,6 @@ ol {
 }
 
 .goal-container {
-  display: flex;
-}
-
-.goal-title {
 }
 
 /* ? --------------------visually-hidden------------------------ */
@@ -222,23 +212,19 @@ ol {
 /* ?------------------------------------------------- */
 
 .goal-list {
+  padding: 0;
+  margin: 0;
+  width: 100%;
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+}
+
+.goal-list-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .goal-list-item-title {
   margin-bottom: 8px;
-  margin-top: 120;
-}
-
-.goal-list-item {
-}
-
-.goal-list-item-title {
 }
 
 .goal-list-item-text {
@@ -302,9 +288,9 @@ ol {
 
 .portfolio-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  /* gap: 24px 48px; */
 }
 
 .portfolio-item-text {
@@ -313,6 +299,7 @@ ol {
 }
 
 .portfolio-list-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-list-img {

@@ -315,7 +315,7 @@ ol {
   padding: 32px 0;
 }
 
-/*todo-----------------------portfolio---------------------------- */
+/**-----------------------portfolio---------------------------- */
 
 .portfolio {
 }
@@ -327,7 +327,7 @@ ol {
 }
 
 .portfolio-list-subtitle {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -365,6 +365,8 @@ ol {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-linc {
@@ -375,9 +377,18 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-linc-part {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
   color: #f4f4fd;
 }
 
@@ -387,8 +398,10 @@ ol {
 }
 
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+max-width: 264px;
+}
 }

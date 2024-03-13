@@ -64,7 +64,18 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.button {
+  cursor: pointer;
+}
+
 /** -------------------------header-------------------------- */
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .header-container {
   display: flex;
@@ -99,6 +110,7 @@ ol {
 }
 
 .nav-link {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -124,7 +136,6 @@ ol {
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -134,9 +145,6 @@ ol {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
-
-.address-list {
 }
 
 .address-list-item {

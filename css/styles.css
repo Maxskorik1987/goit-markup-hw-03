@@ -69,13 +69,13 @@ ol {
   cursor: pointer;
 }
 
-/** -------------------------header-------------------------- */
-
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/** -------------------------header-------------------------- */
 
 .header-container {
   display: flex;
@@ -153,28 +153,28 @@ ol {
 /** -------------------------hero-------------------------- */
 
 .hero-container {
-  display: flex;
 }
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
+  line-height: 1.07;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
   max-width: 496px;
-  text-align: center;
   color: #fff;
+  text-align: center;
 }
 
-.hero-button {
+.button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -186,6 +186,9 @@ ol {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
 }
 
 .hero-button:hover,

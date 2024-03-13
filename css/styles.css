@@ -253,7 +253,7 @@ ol {
   color: #434455;
 }
 
-/*todo------------------------our team----------------------- */
+/**------------------------our team----------------------- */
 
 .team {
   background-color: #f4f4fd;
@@ -323,25 +323,7 @@ ol {
 }
 
 .portfolio-title {
-}
-
-.portfolio-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* gap: 24px 48px; */
-}
-
-.portfolio-item-text {
-  padding-top: 32px;
-  padding-left: 16px;
-}
-
-.portfolio-list-item {
-  width: calc((100% - 24px * 2) / 3);
-}
-
-.portfolio-list-img {
+  margin-bottom: 72px;
 }
 
 .portfolio-list-subtitle {
@@ -349,7 +331,34 @@ ol {
 }
 
 .portfolio-list-text {
-  padding-bottom: 32px;
+}
+
+.portfolio-list-img {
+  margin-bottom: auto;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+
+.portfolio-item-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
 }
 
 /** ----------------------------footer------------------------------- */
